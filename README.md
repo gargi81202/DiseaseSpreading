@@ -27,5 +27,7 @@ The project requires G++, python, and packages like Numpy, Pandas, Matplotlib, a
    The same goes for `linear_threshold_greedy.cpp`
 - `TX_graph_generator.py` and `NY_graph_generator.py` generate graphs for Texas and New York respectively
   
-All the graph generation algorithms require some parameters that are described when needed as user input
+All the graph generation algorithms require some parameters that are described when needed as user input.  
+
+In order to generate the sample topologies needed by the LP and ILP programs, the C++ algorithms need to be run first.
 
